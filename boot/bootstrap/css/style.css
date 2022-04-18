@@ -1,8 +1,71 @@
-.navbar{
-    background-color: #d6d6d6;
+body {
+    font-family: sans-serif;
+    background-image: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+    color: whitesmoke;
+    box-sizing: content-box;
 }
 
-.margin{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+fieldset {
+    border: 3px solid royalblue;
+}
+
+legend {
+    border: 1px solid royalblue;
+    padding: 10px;
+    text-align: center;
+    background-color: royalblue;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    background: none;
+    outline: none;
+    color: whitesmoke;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;
+
+}
+
+.labelinput:hover {
+
+    color: royalblue;
+    font-size: 17px;
+
+
+
+}
+
+#button {
+    background-image: radial-gradient(circle at 50% -20.71%, #be5af5 0, #a04ff4 16.67%, #7944f3 33.33%, #3c3cf2 50%, #0037f1 66.67%, #0034ef 83.33%, #0034ee 100%);
+    width: 100%;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
+    margin-top: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+#button:hover {
+    background: #8831B7;
+    background: -webkit-linear-gradient(left, #8831B7, #D99CFC);
+    background: -moz-linear-gradient(left, #8831B7, #D99CFC);
+    background: linear-gradient(to right, #8831B7, #D99CFC);
+    font-size: 25px;
+
 }

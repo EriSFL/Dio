@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><strong>Formulario de contato</strong> </legend>
+                <div>
+                    <label class="labelinput" for="nome" required>Nome Completo</label>
+                    <input id="nome" type="text" name="nome-completo">
+                    <br>
+                    <br>
+                    <label class="labelinput" for="email">Email</label>
+                    <input id="email" type="email" name="email">
+                    <br>
+                    <br>
+                    <label class="labelinput" for="tel">Telefone</label>
+                    <input id="tel" type="number" name="tel">
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <h2>Sexo:</h2>
+                    <label for="genero">Masculino:</label>
+                    <input type="radio" name="genero" id="genero" value="Masculino">
+                    <br>
+                    <br>
+                    <label for="genero2">Feminino:</label>
+                    <input type="radio" name="genero" id="genero2" value="Feminino">
+                    <br>
+                    <br>
+                    <label for="genero3">Não Binario:</label>
+                    <input type="radio" name="genero" id="genero3" value="naobi">
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <label class="labelinput" for="data"><strong>Data de nascimento: </strong></label>
+                    <input class="data" type="date">
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <input id="cidade" type="text">
+                    <label class="labelinput" for="cidade">Cidade</label>
+                    <br>
+                    <br>
+                    <input id="estado" type="text">
+                    <label class="labelinput" for="estado">Estado</label>
+                    <br>
+                    <br>
+                    <input id="endereco" type="text">
+                    <label class="labelinput" for="endereco">Enereço</label>
+                    <br>
+                    <br>
+                </div>
+            </fieldset>
+            <button id="button">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
